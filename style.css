@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+  background: linear-gradient(47.28deg, #b50cbc 0%, #4e009d 48.8%, #00032c 100%)
+    no-repeat center center fixed;
+  color: #fff;
+}
+.logo {
+  text-align: left;
+  margin-top: 51px;
+  margin-left: 266px;
+}
+.headerBefore {
+  margin-top: 150px;
+}
+.headerBefore h1 {
+  font-size: 60px;
+  font-weight: lighter;
+}
+
+.inputContener {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: 50px auto;
+  width: 50%;
+  height: 400px;
+  background-color: white;
+  opacity: 0.88;
+  border-radius: 25px;
+  padding: 10px 110px;
+}
+.inputContener h3 {
+  color: #012765;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.inputContener input {
+  height: 50px;
+
+  width: 100%;
+
+  background-color: rgba(255, 255, 255, 1);
+
+  border: 1px solid #000000;
+  border-radius: 30px;
+}
+.btn {
+  background: linear-gradient(47.28deg, #b50cbc 0%, #4e009d 48.8%, #00032c 100%)
+    no-repeat center center fixed;
+  height: 50px;
+  width: 50%;
+  border: none;
+}
