@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="2246" viewBox="0 0 1920 2246">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.025" x2="0.845" y2="0.888" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#b50cbc"/>
+      <stop offset="0.488" stop-color="#4e009d"/>
+      <stop offset="1" stop-color="#00032c"/>
+    </linearGradient>
+    <clipPath id="clip-Web_1920_4">
+      <rect width="1920" height="2246"/>
+    </clipPath>
+  </defs>
+  <g id="Web_1920_4" data-name="Web 1920 – 4" clip-path="url(#clip-Web_1920_4)">
+    <rect id="Rectangle_7" data-name="Rectangle 7" width="1920" height="2246" fill="url(#linear-gradient)"/>
+    <g id="Group_11" data-name="Group 11">
+      <circle id="Ellipse_11" data-name="Ellipse 11" cx="38" cy="38" r="38" transform="translate(266 51)" fill="#fff"/>
+      <text id="Logo_Logo" data-name="Logo
+Logo" transform="translate(394 83)" fill="#fff" font-size="25" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-34.987" y="0">LOGO</tspan><tspan x="-34.987" y="30">LOGO</tspan></text>
+    </g>
+    <g id="Group_5" data-name="Group 5" transform="translate(0 -256)">
+      <rect id="Rectangle_9" data-name="Rectangle 9" width="569" height="317" rx="57" transform="translate(383 851)" fill="#fff" opacity="0.877"/>
+      <text id="Saturn" transform="translate(668 946)" fill="#012765" font-size="25" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-37.406" y="0">Saturn</tspan></text>
+      <text id="Your_weight_is_81_kg" data-name="Your weight is 81 kg" transform="translate(668 1010)" fill="#012765" font-size="18" font-family="Lato-Light, Lato" font-weight="300"><tspan x="-76.338" y="0">Your weight is 81 kg</tspan></text>
+      <text id="Your_age_is_7_years_and_10_months_old" data-name="Your age is 7 years and 10 months old" transform="translate(668 1046)" fill="#012765" font-size="18" font-family="Lato-Light, Lato" font-weight="300"><tspan x="-142.717" y="0">Your age is 7 years and 10 months old</tspan></text>
+      <text id="Your_next_birthday_is_13_December_2022" data-name="Your next birthday is 13 December 2022" transform="translate(668 1082)" fill="#012765" font-size="18" font-family="Lato-Light, Lato" font-weight="300"><tspan x="-154.93" y="0">Your next birthday is 13 December 2022</tspan></text>
+      <circle id="Ellipse_12" data-name="Ellipse 12" cx="34" cy="34" r="34" transform="translate(431 893)" fill="#1536a5"/>
+    </g>
+    <g id="Group_6" data-name="Group 6" transform="translate(0 408)">
+      <rect id="Rectangle_9-2" data-name="Rectangle 9" width="569" height="317" rx="57" transform="translate(383 851)" fill="#fff" opacity="0.877"/>
+      <g id="Group_13" data-name="Group 13">
+        <text id="Saturn-2" data-name="Saturn" transform="translate(668 946)" fill="#012765" font-size="25" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-37.406" y="0">Saturn</tspan></text>
+        <text id="Your_weight_is_81_kg-2" data-name="Your weight is 81 kg" transform="translate(668 1010)" fill="#012765" font-size="18" font-family="Lato-Light, Lato" font-weight="300"><tspan x="-76.338" y="0">Your weight is 81 kg</tspan></text>
+        <text id="Your_age_is_7_years_and_10_months_old-2" data-name="Your age is 7 years and 10 months old" transform="translate(668 1046)" fill="#012765" font-size="18" font-family="Lato-Light, Lato" font-weight="300"><tspan x="-142.717" y="0">Your age is 7 years and 10 months old</tspan></text>
+        <text id="Your_next_birthday_is_13_December_2022-2" data-name="Your next birthday is 13 December 2022" transform="translate(668 1082)" fill="#012765" font-size="18" font-family="Lato-Light, Lato" font-weight="300"><tspan x="-154.93" y="0">Your next birthday is 13 December 2022</tspan></text>
+      </g>
+      <circle id="Ellipse_12-2" data-name="Ellipse 12" cx="34" cy="34" r="34" transform="translate(431 893)" fill="#1536a5"/>
+    </g>
+    <g id="Group_3" data-name="Group 3" transform="translate(117 463)">
+      <rect id="Rectangle_9-3" data-name="Rectangle 9" width="569" height="317" rx="57" transform="translate(266 464)" fill="#fff" opacity="0.877"/>
+      <text id="Saturn-3" data-name="Saturn" transform="translate(551 559)" fill="#012765" font-size="25" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-37.406" y="0">Saturn</tspan></text>
+      <text id="Your_weight_is_81_kg-3" data-name="Your weight is 81 kg" transform="translate(551 623)" fill="#012765" font-size="18" font-family="Lato-Light, Lato" font-weight="300"><tspan x="-76.338" y="0">Your weight is 81 kg</tspan></text>
+      <text id="Your_age_is_7_years_and_10_months_old-3" data-name="Your age is 7 years and 10 months old" transform="translate(551 659)" fill="#012765" font-size="18" font-family="Lato-Light, Lato" font-weight="300"><tspan x="-142.717" y="0">Your age is 7 years and 10 months old</tspan></text>
+      <text id="Your_next_birthday_is_13_December_2022-3" data-name="Your next birthday is 13 December 2022" transform="translate(551 695)" fill="#012765" font-size="18" font-family="Lato-Light, Lato" font-weight="300"><tspan x="-154.93" y="0">Your next birthday is 13 December 2022</tspan></text>
+      <circle id="Ellipse_12-3" data-name="Ellipse 12" cx="34" cy="34" r="34" transform="translate(314 506)" fill="#1536a5"/>
+    </g>
+    <g id="Group_8" data-name="Group 8" transform="translate(117 1127)">
+      <rect id="Rectangle_9-4" data-name="Rectangle 9" width="569" height="317" rx="57" transform="translate(266 464)" fill="#fff" opacity="0.877"/>
+      <text id="Saturn-4" data-name="Saturn" transform="translate(551 559)" fill="#012765" font-size="25" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-37.406" y="0">Saturn</tspan></text>
+      <text id="Your_weight_is_81_kg-4" data-name="Your weight is 81 kg" transform="translate(551 623)" fill="#012765" font-size="18" font-family="Lato-Light, Lato" font-weight="300"><tspan x="-76.338" y="0">Your weight is 81 kg</tspan></text>
+      <text id="Your_age_is_7_years_and_10_months_old-4" data-name="Your age is 7 years and 10 months old" transform="translate(551 659)" fill="#012765" font-size="18" font-family="Lato-Light, Lato" font-weight="300"><tspan x="-142.717" y="0">Your age is 7 years and 10 months old</tspan></text>
+      <text id="Your_next_birthday_is_13_December_2022-4" data-name="Your next birthday is 13 December 2022" transform="translate(551 695)" fill="#012765" font-size="18" font-family="Lato-Light, Lato" font-weight="300"><tspan x="-154.93" y="0">Your next birthday is 13 December 2022</tspan></text>
+      <circle id="Ellipse_12-4" data-name="Ellipse 12" cx="34" cy="34" r="34" transform="translate(314 506)" fill="#1536a5"/>
+    </g>
+    <g id="Group_2" data-name="Group 2" transform="translate(702 131)">
+      <rect id="Rectangle_9-5" data-name="Rectangle 9" width="569" height="317" rx="57" transform="translate(266 464)" fill="#fff" opacity="0.877"/>
+      <text id="Saturn-5" data-name="Saturn" transform="translate(551 559)" fill="#012765" font-size="25" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-37.406" y="0">Saturn</tspan></text>
+      <text id="Your_weight_is_81_kg-5" data-name="Your weight is 81 kg" transform="translate(551 623)" fill="#012765" font-size="18" font-family="Lato-Light, Lato" font-weight="300"><tspan x="-76.338" y="0">Your weight is 81 kg</tspan></text>
+      <text id="Your_age_is_7_years_and_10_months_old-5" data-name="Your age is 7 years and 10 months old" transform="translate(551 659)" fill="#012765" font-size="18" font-family="Lato-Light, Lato" font-weight="300"><tspan x="-142.717" y="0">Your age is 7 years and 10 months old</tspan></text>
+      <text id="Your_next_birthday_is_13_December_2022-5" data-name="Your next birthday is 13 December 2022" transform="translate(551 695)" fill="#012765" font-size="18" font-family="Lato-Light, Lato" font-weight="300"><tspan x="-154.93" y="0">Your next birthday is 13 December 2022</tspan></text>
+      <circle id="Ellipse_12-5" data-name="Ellipse 12" cx="34" cy="34" r="34" transform="translate(314 506)" fill="#1536a5"/>
+    </g>
+    <g id="Group_7" data-name="Group 7" transform="translate(702 795)">
+      <rect id="Rectangle_9-6" data-name="Rectangle 9" width="569" height="317" rx="57" transform="translate(266 464)" fill="#fff" opacity="0.877"/>
+      <text id="Saturn-6" data-name="Saturn" transform="translate(551 559)" fill="#012765" font-size="25" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-37.406" y="0">Saturn</tspan></text>
+      <text id="Your_weight_is_81_kg-6" data-name="Your weight is 81 kg" transform="translate(551 623)" fill="#012765" font-size="18" font-family="Lato-Light, Lato" font-weight="300"><tspan x="-76.338" y="0">Your weight is 81 kg</tspan></text>
+      <text id="Your_age_is_7_years_and_10_months_old-6" data-name="Your age is 7 years and 10 months old" transform="translate(551 659)" fill="#012765" font-size="18" font-family="Lato-Light, Lato" font-weight="300"><tspan x="-142.717" y="0">Your age is 7 years and 10 months old</tspan></text>
+      <text id="Your_next_birthday_is_13_December_2022-6" data-name="Your next birthday is 13 December 2022" transform="translate(551 695)" fill="#012765" font-size="18" font-family="Lato-Light, Lato" font-weight="300"><tspan x="-154.93" y="0">Your next birthday is 13 December 2022</tspan></text>
+      <circle id="Ellipse_12-6" data-name="Ellipse 12" cx="34" cy="34" r="34" transform="translate(314 506)" fill="#1536a5"/>
+    </g>
+    <g id="Group_4" data-name="Group 4" transform="translate(702 463)">
+      <rect id="Rectangle_9-7" data-name="Rectangle 9" width="569" height="317" rx="57" transform="translate(266 464)" fill="#fff" opacity="0.877"/>
+      <text id="Saturn-7" data-name="Saturn" transform="translate(551 559)" fill="#012765" font-size="25" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-37.406" y="0">Saturn</tspan></text>
+      <text id="Your_weight_is_81_kg-7" data-name="Your weight is 81 kg" transform="translate(551 623)" fill="#012765" font-size="18" font-family="Lato-Light, Lato" font-weight="300"><tspan x="-76.338" y="0">Your weight is 81 kg</tspan></text>
+      <text id="Your_age_is_7_years_and_10_months_old-7" data-name="Your age is 7 years and 10 months old" transform="translate(551 659)" fill="#012765" font-size="18" font-family="Lato-Light, Lato" font-weight="300"><tspan x="-142.717" y="0">Your age is 7 years and 10 months old</tspan></text>
+      <text id="Your_next_birthday_is_13_December_2022-7" data-name="Your next birthday is 13 December 2022" transform="translate(551 695)" fill="#012765" font-size="18" font-family="Lato-Light, Lato" font-weight="300"><tspan x="-154.93" y="0">Your next birthday is 13 December 2022</tspan></text>
+      <circle id="Ellipse_12-7" data-name="Ellipse 12" cx="34" cy="34" r="34" transform="translate(314 506)" fill="#1536a5"/>
+    </g>
+    <g id="Group_9" data-name="Group 9" transform="translate(702 1127)">
+      <rect id="Rectangle_9-8" data-name="Rectangle 9" width="569" height="317" rx="57" transform="translate(266 464)" fill="#fff" opacity="0.877"/>
+      <text id="Saturn-8" data-name="Saturn" transform="translate(551 559)" fill="#012765" font-size="25" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-37.406" y="0">Saturn</tspan></text>
+      <text id="Your_weight_is_81_kg-8" data-name="Your weight is 81 kg" transform="translate(551 623)" fill="#012765" font-size="18" font-family="Lato-Light, Lato" font-weight="300"><tspan x="-76.338" y="0">Your weight is 81 kg</tspan></text>
+      <text id="Your_age_is_7_years_and_10_months_old-8" data-name="Your age is 7 years and 10 months old" transform="translate(551 659)" fill="#012765" font-size="18" font-family="Lato-Light, Lato" font-weight="300"><tspan x="-142.717" y="0">Your age is 7 years and 10 months old</tspan></text>
+      <text id="Your_next_birthday_is_13_December_2022-8" data-name="Your next birthday is 13 December 2022" transform="translate(551 695)" fill="#012765" font-size="18" font-family="Lato-Light, Lato" font-weight="300"><tspan x="-154.93" y="0">Your next birthday is 13 December 2022</tspan></text>
+      <circle id="Ellipse_12-8" data-name="Ellipse 12" cx="34" cy="34" r="34" transform="translate(314 506)" fill="#1536a5"/>
+    </g>
+    <text id="Here_it_comes._Your_cosmic_results." data-name="Here it comes.
+Your cosmic results." transform="translate(960 364)" fill="#fff" font-size="60" font-family="Lato-Light, Lato" font-weight="300"><tspan x="-182.55" y="0">Here it comes.</tspan><tspan x="-251.97" y="72">Your cosmic results.</tspan></text>
+    <text id="Website_designed_by_Deliryk_Rivijski" data-name="Website designed by Deliryk &amp; Rivijski" transform="translate(960 2210)" fill="#fff" font-size="12" font-family="Lato-Light, Lato" font-weight="300"><tspan x="-97.119" y="0">Website designed by Deliryk &amp; Rivijski</tspan></text>
+  </g>
+</svg>

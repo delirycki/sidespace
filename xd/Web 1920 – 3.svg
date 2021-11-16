@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <filter id="Rectangle_1" x="868" y="115" width="185" height="63" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-Web_1920_3">
+      <rect width="1920" height="1080"/>
+    </clipPath>
+  </defs>
+  <g id="Web_1920_3" data-name="Web 1920 – 3" clip-path="url(#clip-Web_1920_3)">
+    <rect width="1920" height="1080"/>
+    <text id="Your_weight_on_mars" data-name="Your weight on mars" transform="translate(960 49)" fill="#fff" font-size="40" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-235.4" y="0">YOUR WEIGHT ON MARS</tspan></text>
+    <text id="Enter_Your_Weight" data-name="Enter Your Weight" transform="translate(960 104)" fill="#fff" font-size="30" font-family="Palatino-Bold, Palatino" font-weight="700"><tspan x="-121.67" y="0">enter your weight</tspan></text>
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Rectangle_1)">
+      <g id="Rectangle_1-2" data-name="Rectangle 1" transform="translate(877 121)" fill="#fff" stroke="#9a7b7b" stroke-width="3">
+        <rect width="167" height="45" rx="10" stroke="none"/>
+        <rect x="1.5" y="1.5" width="164" height="42" rx="8.5" fill="none"/>
+      </g>
+    </g>
+    <text id="Kg" transform="translate(1017 151)" font-size="30" font-family="Palatino-Bold, Palatino" font-weight="700"><tspan x="-17.505" y="0">kg</tspan></text>
+    <line id="Line_1" data-name="Line 1" y2="41" transform="translate(995.5 122.911)" fill="none" stroke="#9a7b7b" stroke-width="3"/>
+    <text id="Enter_Your_birtrhdate" data-name="Enter Your birtrhdate" transform="translate(960 206)" fill="#fff" font-size="30" font-family="Palatino-Bold, Palatino" font-weight="700"><tspan x="-143.328" y="0">enter your birtrhdate</tspan></text>
+    <text id="_100" data-name="100" transform="translate(945 151)" font-size="30" font-family="Palatino-Bold, Palatino" font-weight="700" opacity="0.302"><tspan x="-22.5" y="0">100</tspan></text>
+    <text id="Sad_sad" data-name="Sad sad" transform="translate(1572 1060)" font-size="30" font-family="Palatino-Bold, Palatino" font-weight="700"><tspan x="-52.896" y="0">Sad sad</tspan></text>
+  </g>
+</svg>

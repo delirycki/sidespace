@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.025" x2="0.845" y2="0.888" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#b50cbc"/>
+      <stop offset="0.488" stop-color="#4e009d"/>
+      <stop offset="1" stop-color="#00032c"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.936" y1="0.824" x2="0.173" y2="0.829" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#9e3eb5"/>
+      <stop offset="1" stop-color="#1c39c7"/>
+    </linearGradient>
+    <clipPath id="clip-Web_1920_5">
+      <rect width="1920" height="1080"/>
+    </clipPath>
+  </defs>
+  <g id="Web_1920_5" data-name="Web 1920 – 5" clip-path="url(#clip-Web_1920_5)">
+    <rect id="Rectangle_7" data-name="Rectangle 7" width="1920" height="1086" fill="url(#linear-gradient)"/>
+    <g id="Group_12" data-name="Group 12">
+      <circle id="Ellipse_11" data-name="Ellipse 11" cx="38" cy="38" r="38" transform="translate(266 51)" fill="#fff"/>
+      <text id="Logo_Logo" data-name="Logo
+Logo" transform="translate(394 83)" fill="#fff" font-size="25" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-34.987" y="0">LOGO</tspan><tspan x="-34.987" y="30">LOGO</tspan></text>
+    </g>
+    <text id="Your_weight._Your_age._Your_birtrhdate._Check_it_on_another_planet." data-name="Your weight. Your age. Your birtrhdate.
+Check it on another planet." transform="translate(960 364)" fill="#fff" font-size="60" font-family="Lato-Light, Lato" font-weight="300"><tspan x="-489.525" y="0">Your weight. Your age. Your birtrhdate.</tspan><tspan x="-341.685" y="72">Check it on another planet.</tspan></text>
+    <rect id="Rectangle_9" data-name="Rectangle 9" width="685" height="395" rx="57" transform="translate(618 507)" fill="#fff" opacity="0.877"/>
+    <text id="We_need_just_two_simple_details" data-name="We need just two simple details" transform="translate(960 575)" fill="#012765" font-size="25" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-175.7" y="0">We need just two simple details</tspan></text>
+    <rect id="Rectangle_11" data-name="Rectangle 11" width="451" height="53" rx="26.5" transform="translate(735 688)" fill="#fff"/>
+    <rect id="Rectangle_13" data-name="Rectangle 13" width="451" height="53" rx="26.5" transform="translate(735 615)" fill="#fff"/>
+    <text id="Type_your_weight" data-name="Type your weight" transform="translate(961 649)" fill="#9d9d9d" font-size="18" font-family="Lato-Light, Lato" font-weight="300"><tspan x="-65.322" y="0">Type your weight</tspan></text>
+    <text id="Type_your_birthdate" data-name="Type your birthdate" transform="translate(961 722)" fill="#9d9d9d" font-size="18" font-family="Lato-Light, Lato" font-weight="300"><tspan x="-75.136" y="0">Type your birthdate</tspan></text>
+    <g id="Group_10" data-name="Group 10">
+      <rect id="Rectangle_12" data-name="Rectangle 12" width="217" height="55" rx="27.5" transform="translate(852 787)" fill="url(#linear-gradient-2)"/>
+      <text id="Check" transform="translate(961 822)" fill="#fff" font-size="18" font-family="Lato-Bold, Lato" font-weight="700"><tspan x="-30.307" y="0">CHECK</tspan></text>
+    </g>
+    <text id="Website_designed_by_Deliryk_Rivijski" data-name="Website designed by Deliryk &amp; Rivijski" transform="translate(960 1051)" fill="#fff" font-size="12" font-family="Lato-Light, Lato" font-weight="300"><tspan x="-97.119" y="0">Website designed by Deliryk &amp; Rivijski</tspan></text>
+  </g>
+</svg>

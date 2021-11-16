@@ -22,19 +22,22 @@
 
       <input
         type="number"
+        min="0"
         id="weight"
         class="input"
         placeholder="Type your weight"
       />
 
       <input
-        type="date"
-        id="birhdate"
-        class="input"
         placeholder="Type your birthdate"
+        class="textbox-n"
+        type="text"
+        onfocus="(this.type='date')"
+        onblur="(this.type='text')"
+        id="date"
       />
 
-      <button class="btn" id="btn">CHECK</button>
+      <button class="ripple" id="btn">CHECK</button>
     </div>
     <div class="headerAfter">
       <h1>
@@ -50,6 +53,28 @@
         <p>Your age is 7 years and 10 months old</p>
         <p>Your next birthday is 13 December 2022</p>
       </div>
+      <div class="planet">
+        <div class="planetaImg"></div>
+        <strong>Saturn</strong>
+        <p>Your weight is 81 kg</p>
+        <p>Your age is 7 years and 10 months old</p>
+        <p>Your next birthday is 13 December 2022</p>
+      </div>
+      <div class="planet">
+        <div class="planetaImg"></div>
+        <strong>Saturn</strong>
+        <p>Your weight is 81 kg</p>
+        <p>Your age is 7 years and 10 months old</p>
+        <p>Your next birthday is 13 December 2022</p>
+      </div>
+      <div class="planet">
+        <div class="planetaImg"></div>
+        <strong>Saturn</strong>
+        <p>Your weight is 81 kg</p>
+        <p>Your age is 7 years and 10 months old</p>
+        <p>Your next birthday is 13 December 2022</p>
+      </div>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>
