@@ -122,10 +122,12 @@ button .circle {
 }
 
 .planets {
-  border: solid;
-
-  display: flex;
+  /* display: flex;
   flex-wrap: wrap;
+  justify-content: center; */
+
+  display: grid;
+  grid-template-columns: auto auto;
   justify-content: center;
 }
 .planet {

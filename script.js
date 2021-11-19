@@ -39,6 +39,10 @@ button.addEventListener("click", () => {
       const [year, months] = yourAgeInAnotherPlanet(dateBirthday, e);
       const planetdiv = document.createElement("div");
       planetdiv.classList.add("planet");
+      if (planets[e][0] == "The Sun") {
+        planetdiv.style["grid-column"] = "1/ span 2";
+        planetdiv.style.width = "920px";
+      }
       planetdiv.innerHTML = `
         <strong>${planets[e][0]}</strong>
         <p>Your weight is ${yourWaghtInAnotherPlanet(e, massPerson)} kg.</p>
