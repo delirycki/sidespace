@@ -26,6 +26,7 @@
         id="weight"
         class="input"
         placeholder="Type your weight"
+        required
       />
 
       <input
@@ -36,45 +37,19 @@
         onblur="(this.type='text')"
         id="date"
       />
+      <div class="wrongInfo hidden" id="wrongInfo">
+        *Your datas are not correct. Try again.
+      </div>
 
       <button class="ripple" id="btn">CHECK</button>
     </div>
-    <div class="headerAfter">
+    <div class="headerAfter hidden" id="headerAfter">
       <h1>
         Here it comes.<br />
         Your cosmic results.
       </h1>
     </div>
-    <div class="planets">
-      <div class="planet">
-        <div class="planetaImg"></div>
-        <strong>Saturn</strong>
-        <p>Your weight is 81 kg</p>
-        <p>Your age is 7 years and 10 months old</p>
-        <p>Your next birthday is 13 December 2022</p>
-      </div>
-      <div class="planet">
-        <div class="planetaImg"></div>
-        <strong>Saturn</strong>
-        <p>Your weight is 81 kg</p>
-        <p>Your age is 7 years and 10 months old</p>
-        <p>Your next birthday is 13 December 2022</p>
-      </div>
-      <div class="planet">
-        <div class="planetaImg"></div>
-        <strong>Saturn</strong>
-        <p>Your weight is 81 kg</p>
-        <p>Your age is 7 years and 10 months old</p>
-        <p>Your next birthday is 13 December 2022</p>
-      </div>
-      <div class="planet">
-        <div class="planetaImg"></div>
-        <strong>Saturn</strong>
-        <p>Your weight is 81 kg</p>
-        <p>Your age is 7 years and 10 months old</p>
-        <p>Your next birthday is 13 December 2022</p>
-      </div>
-    </div>
+    <div class="planets"></div>
     <script src="script.js"></script>
   </body>
 </html>

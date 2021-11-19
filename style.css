@@ -55,6 +55,7 @@ body {
   border-radius: 30px;
   border: none;
   font-size: 18px;
+  text-align: center;
 }
 input:focus {
   outline: none;
@@ -66,6 +67,13 @@ input:focus {
 input:focus::placeholder {
   color: transparent;
 }
+.wrong {
+  border: 2px solid #ff0000 !important;
+}
+.wrongInfo {
+  color: #ff0000;
+  font-family: 14px;
+}
 button {
   background: linear-gradient(
     47.28deg,
@@ -75,10 +83,12 @@ button {
   );
   height: 50px;
   width: 50%;
+
   border: none;
   border-radius: 40px;
   cursor: pointer;
-  margin-top: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   color: white;
   font-size: 18px;
   font-weight: bold;
@@ -107,6 +117,9 @@ button .circle {
   font-weight: lighter;
   margin-bottom: 150px;
 }
+.hidden {
+  display: none;
+}
 
 .planets {
   border: solid;
@@ -133,6 +146,9 @@ button .circle {
 .planet strong {
   margin-bottom: 40px;
   font-size: 25px;
+}
+.planet p {
+  margin-bottom: 10px;
 }
 
 /* Chrome, Safari, Edge, Opera */
