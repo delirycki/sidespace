@@ -41,7 +41,7 @@ button.addEventListener("click", () => {
       planetdiv.classList.add("planet");
       if (planets[e][0] == "The Sun") {
         planetdiv.style["grid-column"] = "1/ span 2";
-        planetdiv.style.width = "920px";
+        planetdiv.style.width = "92rem";
       }
       planetdiv.innerHTML = `
         <strong>${planets[e][0]}</strong>
@@ -127,8 +127,8 @@ buttons.forEach((button) => {
 
     const circle = document.createElement("span");
     circle.classList.add("circle");
-    circle.style.top = yInside + window.scrollY + "px";
-    circle.style.left = xInside + "px";
+    circle.style.top = yInside + window.scrollY / 10 + "rem";
+    circle.style.left = xInside / 10 + "rem";
 
     this.appendChild(circle);
 
