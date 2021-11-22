@@ -141,6 +141,7 @@ button .circle {
   align-items: center;
   opacity: 0.88;
   border-radius: 2.5rem;
+  position: relative;
 }
 
 .planet strong {
@@ -149,6 +150,13 @@ button .circle {
 }
 .planet p {
   margin-bottom: 1rem;
+}
+.planet img {
+  position: absolute;
+  height: 8rem;
+  width: 8rem;
+  top: 1.5rem;
+  left: 1.5rem;
 }
 
 /* Chrome, Safari, Edge, Opera */

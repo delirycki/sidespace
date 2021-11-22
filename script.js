@@ -7,18 +7,18 @@ const buttons = document.querySelectorAll(".ripple");
 const wrongInfo = document.getElementById("wrongInfo");
 
 const planets = [
-  ["The Sun", 27.9, 365 / 12],
+  ["The Sun", 27.9, 365 / 12, "TheSun.svg"],
 
-  ["Mercury", 0.377, 88],
-  ["Venus", 0.9032, 225],
-  ["Earth", 1, 365.25],
-  ["Moon", 0.1655, 365.25],
-  ["Mars", 0.3895, 687],
-  ["Jupiter", 2.54, 11.8 * 365],
-  ["Saturn", 1.08, (29, 4 * 365)],
-  ["Uranus", 0.917, 84 * 365],
-  ["Neptune", 1.19, 164 * 365],
-  ["Pluto", 0.06, 248 * 365],
+  ["Mercury", 0.377, 88, "mercury.svg"],
+  ["Venus", 0.9032, 225, "venus.svg"],
+  ["Earth", 1, 365.25, "earth.svg"],
+  ["Moon", 0.1655, 365.25, "moon.svg"],
+  ["Mars", 0.3895, 687, "mars.svg"],
+  ["Jupiter", 2.54, 11.8 * 365, "jupiter.svg"],
+  ["Saturn", 1.08, (29, 4 * 365), "saturn.svg"],
+  ["Uranus", 0.917, 84 * 365, "uranus.svg"],
+  ["Neptune", 1.19, 164 * 365, "neptune.svg"],
+  ["Pluto", 0.06, 248 * 365, ".svg"],
 ];
 
 dateInput.max = new Date().toISOString().split("T")[0];
@@ -44,6 +44,9 @@ button.addEventListener("click", () => {
         planetdiv.style.width = "92rem";
       }
       planetdiv.innerHTML = `
+        <img class="picOfPlanet" src="img/${planets[e][3]}" alt="${
+        planets[e][0]
+      }">
         <strong>${planets[e][0]}</strong>
         <p>Your weight is ${yourWaghtInAnotherPlanet(e, massPerson)} kg.</p>
         <p>Your age is ${year} years and ${months} months old.</p>
