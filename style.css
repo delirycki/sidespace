@@ -24,10 +24,22 @@ body {
 }
 .headerBefore {
   margin-top: 8rem;
+  animation-name: hide;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-play-state: paused;
 }
 .headerBefore h1 {
   font-size: 6rem;
   font-weight: lighter;
+}
+@keyframes hide {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
 }
 
 .inputContener {
