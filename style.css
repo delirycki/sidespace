@@ -157,15 +157,22 @@ button .circle {
   width: 8rem;
   top: 1.5rem;
   left: 1.5rem;
+  z-index: -1;
 }
 #Sun {
-  left: 10rem;
+  left: 18rem;
   top: 0.5rem;
   width: 12rem;
   height: 12rem;
 }
 #Saturn {
   left: 0;
+  top: -1rem;
+  height: 13rem;
+  width: 13rem;
+}
+#Neptune {
+  left: -1rem;
   top: 0;
   height: 13rem;
   width: 13rem;
@@ -203,6 +210,21 @@ input[type="number"] {
     grid-column: 1;
     margin-left: 0;
     margin-right: 0;
+  }
+  #Sun {
+    height: 10rem;
+    left: 1rem;
+  }
+  #Saturn {
+    top: 0.5rem;
+    height: 8rem;
+    width: 8rem;
+  }
+  #Neptune {
+    top: 0rem;
+    left: 1rem;
+    height: 12rem;
+    width: 12rem;
   }
   button {
     width: 50% !important;
