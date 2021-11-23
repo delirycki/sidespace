@@ -7,7 +7,7 @@ const buttons = document.querySelectorAll(".ripple");
 const wrongInfo = document.getElementById("wrongInfo");
 
 const planets = [
-  ["The Sun", 27.9, 365 / 12, "TheSun.svg"],
+  ["Sun", 27.9, 365 / 12, "TheSun.svg"],
 
   ["Mercury", 0.377, 88, "mercury.svg"],
   ["Venus", 0.9032, 225, "venus.svg"],
@@ -39,12 +39,12 @@ button.addEventListener("click", () => {
       const [year, months] = yourAgeInAnotherPlanet(dateBirthday, e);
       const planetdiv = document.createElement("div");
       planetdiv.classList.add("planet");
-      if (planets[e][0] == "The Sun") {
+      if (planets[e][0] == "Sun") {
         planetdiv.style["grid-column"] = "1/ span 2";
         planetdiv.style.width = "92rem";
       }
       planetdiv.innerHTML = `
-        <img class="picOfPlanet" src="img/${planets[e][3]}" alt="${
+        <img id="${planets[e][0]}" src="img/${planets[e][3]}" alt="${
         planets[e][0]
       }">
         <strong>${planets[e][0]}</strong>
@@ -130,8 +130,8 @@ buttons.forEach((button) => {
 
     const circle = document.createElement("span");
     circle.classList.add("circle");
-    circle.style.top = yInside + window.scrollY / 10 + "rem";
-    circle.style.left = xInside / 10 + "rem";
+    circle.style.top = yInside + window.scrollY + "px";
+    circle.style.left = xInside + "px";
 
     this.appendChild(circle);
 

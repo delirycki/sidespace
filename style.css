@@ -94,7 +94,7 @@ button {
   color: white;
   font-size: 1.8rem;
   font-weight: bold;
-
+  position: relative;
   overflow: hidden;
 }
 button .circle {
@@ -157,6 +157,18 @@ button .circle {
   width: 8rem;
   top: 1.5rem;
   left: 1.5rem;
+}
+#Sun {
+  left: 10rem;
+  top: 0.5rem;
+  width: 12rem;
+  height: 12rem;
+}
+#Saturn {
+  left: 0;
+  top: 0;
+  height: 13rem;
+  width: 13rem;
 }
 
 /* Chrome, Safari, Edge, Opera */
