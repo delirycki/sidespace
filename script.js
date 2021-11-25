@@ -2,7 +2,7 @@ const weightHTML = document.querySelector(".planets");
 const button = document.querySelector(".ripple");
 const headerAfter = document.getElementById("headerAfter");
 const headerBefore = document.getElementById("headerBefore");
-
+const inputContener = document.getElementById("inputContener");
 const weight = document.getElementById("weight");
 const dateInput = document.getElementById("date");
 const buttons = document.querySelectorAll(".ripple");
@@ -28,6 +28,9 @@ dateInput.max = new Date().toISOString().split("T")[0];
 button.addEventListener("click", () => {
   headerBefore.style.animationPlayState = "running";
   headerBefore.addEventListener("animationend", () => headerBefore.remove());
+  inputContener.style.animationPlayState="running";
+  inputContener.addEventListener("animationend", () => inputContener.remove());
+
   const massPerson = weight.value;
   const dateBirthday = new Date(dateInput.value);
   const dateNow = new Date();

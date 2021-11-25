@@ -52,6 +52,10 @@ body {
   background-color: rgba(255, 255, 255, 0.88);
   border-radius: 2.5rem;
   padding: 1rem;
+  animation-name: hide;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-play-state: paused;
 }
 .inputContener h3 {
   color: #012765;
