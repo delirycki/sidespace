@@ -26,18 +26,18 @@ const planets = [
 dateInput.max = new Date().toISOString().split("T")[0];
 
 button.addEventListener("click", () => {
-  headerBefore.style.animationPlayState = "running";
-  headerBefore.addEventListener("animationend", () => headerBefore.remove());
-  inputContener.style.animationPlayState="running";
-  inputContener.addEventListener("animationend", () => inputContener.remove());
+
 
   const massPerson = weight.value;
   const dateBirthday = new Date(dateInput.value);
   const dateNow = new Date();
 
   if (massPerson > 0 && dateBirthday < dateNow) {
-    weight.classList.remove("wrong");
-    dateInput.classList.remove("wrong");
+    headerBefore.style.animationPlayState = "running";
+    headerBefore.addEventListener("animationend", () => headerBefore.remove());
+    inputContener.style.animationPlayState="running";
+    inputContener.addEventListener("animationend", () => inputContener.remove());
+    
     weightHTML.innerHTML = "";
     headerAfter.classList.remove("hidden");
     wrongInfo.classList.add("hidden");
