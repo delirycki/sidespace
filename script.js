@@ -20,7 +20,7 @@ const planets = [
   ["Saturn", 1.08, (29, 4 * 365), "saturn.svg"],
   ["Uranus", 0.917, 84 * 365, "uranus.svg"],
   ["Neptune", 1.19, 164 * 365, "neptune.svg"],
-  ["Pluto", 0.06, 248 * 365, ".svg"],
+  ["Pluto", 0.06, 248 * 365, "pluto.svg"],
 ];
 
 dateInput.max = new Date().toISOString().split("T")[0];
