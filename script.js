@@ -37,10 +37,9 @@ button.addEventListener("click", () => {
     headerBefore.addEventListener("animationend", () => headerBefore.remove());
     inputContener.style.animationPlayState="running";
     inputContener.addEventListener("animationend", () => inputContener.remove());
-    
+
     weightHTML.innerHTML = "";
     headerAfter.classList.remove("hidden");
-    wrongInfo.classList.add("hidden");
 
     for (e in planets) {
       const [year, months] = yourAgeInAnotherPlanet(dateBirthday, e);
