@@ -16,6 +16,7 @@ body {
   background: linear-gradient(47.28deg, #b50cbc 0%, #4e009d 48.8%, #00032c 100%)
     no-repeat center center fixed;
   color: #fff;
+  
 }
 .logo {
   text-align: left;
@@ -23,7 +24,7 @@ body {
   margin-left: 12%;
 }
 .headerBefore {
-  margin-top: 8rem;
+  margin-top: 6rem;
   animation-name: hide;
   animation-duration: 2s;
   animation-fill-mode: forwards;
@@ -46,7 +47,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 5rem auto;
+  margin: 15rem auto;
   width: 68.5rem;
   height: 40rem;
   background-color: rgba(255, 255, 255, 0.88);
@@ -133,7 +134,7 @@ button .circle {
 .headerAfter h1 {
   font-size: 6rem;
   font-weight: lighter;
-  margin-bottom: 15rem;
+  margin-bottom: 10rem;
 }
 .hidden {
   display: none;
@@ -214,15 +215,18 @@ input[type="number"] {
     font-size: 3.5rem !important;
   }
   .inputContener {
-    width: 35rem !important;
+    width: 90vw !important;
     margin: 4rem auto;
+  }
+  .inputContener input {
+    width: 70% !important;
   }
   .planets {
     width: 45rem;
     grid-template-columns: auto !important;
   }
   .planet {
-    width: 35rem !important;
+    mini-width: 37.5rem !important;
     grid-column: 1;
     margin-left: 0;
     margin-right: 0;
