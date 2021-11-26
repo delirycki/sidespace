@@ -26,8 +26,6 @@ const planets = [
 dateInput.max = new Date().toISOString().split("T")[0];
 
 button.addEventListener("click", () => {
-
-
   const massPerson = weight.value;
   const dateBirthday = new Date(dateInput.value);
   const dateNow = new Date();
@@ -39,33 +37,36 @@ button.addEventListener("click", () => {
     inputContener.style.animationPlayState="running";
     inputContener.addEventListener("animationend", () => inputContener.remove());
 
-    weightHTML.innerHTML = "";
-    headerAfter.classList.remove("hidden");
-
-    for (e in planets) {
-      const [year, months] = yourAgeInAnotherPlanet(dateBirthday, e);
-      const planetdiv = document.createElement("div");
-      planetdiv.classList.add("planet");
-      if (planets[e][0] == "Sun") {
-        planetdiv.style["grid-column"] = "1/ span 2";
-        planetdiv.style.width = "92rem";
-      }
-      planetdiv.innerHTML = `
-        <img id="${planets[e][0]}" src="img/${planets[e][3]}" alt="${
-        planets[e][0]
-      }">
-        <strong>${planets[e][0]}</strong>
-        <p>Your weight is ${yourWaghtInAnotherPlanet(e, massPerson)} kg.</p>
-        <p>Your age is ${year} years and ${months} months old.</p>
-        <p>Your next birthday is ${nextBirthday(dateBirthday, e)}.</p>`;
-      weightHTML.appendChild(planetdiv);
-    }
+    updateDOM(massPerson,dateBirthday)
 
 }
 })
 
+function updateDOM(massPerson,dateBirthday){
+  weightHTML.innerHTML = "";
+  headerAfter.classList.remove("hidden");
+
+  for (e in planets) {
+    const [year, months] = yourAgeInAnotherPlanet(dateBirthday, e);
+    const planetdiv = document.createElement("div");
+    planetdiv.classList.add("planet");
+    if (planets[e][0] == "Sun") {
+      planetdiv.style["grid-column"] = "1/ span 2";
+      planetdiv.style.width = "92rem";
+    }
+    planetdiv.innerHTML = `
+      <img id="${planets[e][0]}" src="img/${planets[e][3]}" alt="${
+      planets[e][0]
+    }">
+      <strong>${planets[e][0]}</strong>
+      <p>Your weight is ${yourWaghtInAnotherPlanet(e, massPerson)} kg.</p>
+      <p>Your age is ${year} years and ${months} months old.</p>
+      <p>Your next birthday is ${nextBirthday(dateBirthday, e)}.</p>`;
+    weightHTML.appendChild(planetdiv);
+  }
+}
+
 function isDataOk(massPerson,dateBirthday,dateNow){
-  console.log(massPerson,dateBirthday,dateNow);
   if(dateBirthday < dateNow && massPerson > 0){
     return true
 } else if (dateBirthday < dateNow && massPerson <= 0) {
