@@ -32,7 +32,8 @@ button.addEventListener("click", () => {
   const dateBirthday = new Date(dateInput.value);
   const dateNow = new Date();
 
-  if (massPerson > 0 && dateBirthday < dateNow) {
+  if(isDataOk(massPerson,dateBirthday,dateNow))
+  {
     headerBefore.style.animationPlayState = "running";
     headerBefore.addEventListener("animationend", () => headerBefore.remove());
     inputContener.style.animationPlayState="running";
@@ -59,18 +60,27 @@ button.addEventListener("click", () => {
         <p>Your next birthday is ${nextBirthday(dateBirthday, e)}.</p>`;
       weightHTML.appendChild(planetdiv);
     }
-  } else if (dateBirthday < dateNow && massPerson <= 0) {
-    weight.classList.add("wrong");
-    wrongInfo.classList.remove("hidden");
-  } else if (massPerson > 0 && dateBirthday > dateNow) {
-    date.classList.add("wrong");
-    wrongInfo.classList.remove("hidden");
-  } else {
-    weight.classList.add("wrong");
-    date.classList.add("wrong");
-    wrongInfo.classList.remove("hidden");
-  }
-});
+
+}
+})
+
+function isDataOk(massPerson,dateBirthday,dateNow){
+  console.log(massPerson,dateBirthday,dateNow);
+  if(dateBirthday < dateNow && massPerson > 0){
+    return true
+} else if (dateBirthday < dateNow && massPerson <= 0) {
+  weight.classList.add("wrong");
+  wrongInfo.classList.remove("hidden");
+} else if (massPerson > 0 && dateBirthday > dateNow) {
+  date.classList.add("wrong");
+  wrongInfo.classList.remove("hidden");
+} else {
+  weight.classList.add("wrong");
+  date.classList.add("wrong");
+  wrongInfo.classList.remove("hidden");
+}
+
+}
 
 function yourWaghtInAnotherPlanet(nrOfPlanet, massPerson) {
   return Math.floor(planets[e][1] * massPerson);
