@@ -1,10 +1,9 @@
+const nav = document.querySelector("nav")
 const weightHTML = document.querySelector(".planets");
-const button = document.querySelector(".ripple");
+const button = document.getElementById("btn");
 const headerAfter = document.getElementById("headerAfter");
 const headerBefore = document.getElementById("headerBefore");
 const inputContener = document.getElementById("inputContener");
-const weight = document.getElementById("weight");
-const dateInput = document.getElementById("date");
 const buttons = document.querySelectorAll(".ripple");
 const wrongInfo = document.getElementById("wrongInfo");
 
@@ -23,24 +22,66 @@ const planets = [
   ["Pluto", 0.06, 248 * 365, "pluto.svg"],
 ];
 
-dateInput.max = new Date().toISOString().split("T")[0];
+document.getElementById("date").max = new Date().toISOString().split("T")[0];
 
 button.addEventListener("click", () => {
-  const massPerson = weight.value;
-  const dateBirthday = new Date(dateInput.value);
+  console.log("ELO");
+  const massPerson = document.getElementById("weight").value;
+  const dateBirthday = new Date(document.getElementById("date").value);
   const dateNow = new Date();
 
   if(isDataOk(massPerson,dateBirthday,dateNow))
   {
+    if(headerBefore){
     headerBefore.style.animationPlayState = "running";
     headerBefore.addEventListener("animationend", () => headerBefore.remove());
     inputContener.style.animationPlayState="running";
     inputContener.addEventListener("animationend", () => inputContener.remove());
-
+    createNavInputs()
+    }
     updateDOM(massPerson,dateBirthday)
+}
+const buttonNav = document.getElementById("btnInput");
+
+buttonNav.addEventListener("click",()=>{
+  console.log("ELO");
+  const massPerson = document.getElementById("weight").value;
+  const dateBirthday = new Date(document.getElementById("date").value);
+  const dateNow = new Date();
+  if(isDataOk(massPerson,dateBirthday,dateNow)){
+  updateDOM(massPerson,dateBirthday)}})
+})
+
+function createNavInputs(){
+const navInputs = document.createElement('div')
+navInputs.classList.add('navInputs')
+navInputs.innerHTML = ` <input
+type="number"
+min="0"
+id="weight"
+class="input"
+placeholder="Type your weight"
+required
+/>
+
+<input
+placeholder="Type your birthdate"
+class="textbox-n"
+type="text"
+onfocus="(this.type='date')"
+onblur="(this.type='text')"
+id="date"
+/>
+
+<div class="wrongInfo hidden" id="wrongInfo">
+*Your datas are not correct. Try again.
+</div>
+
+<button class="ripple" id="btnInput">CHECK</button>`
+nav.style.backgroundColor="rgba(255, 255, 255, 0.88) "
+nav.appendChild(navInputs)
 
 }
-})
 
 function updateDOM(massPerson,dateBirthday){
   weightHTML.innerHTML = "";
@@ -68,6 +109,9 @@ function updateDOM(massPerson,dateBirthday){
 
 function isDataOk(massPerson,dateBirthday,dateNow){
   if(dateBirthday < dateNow && massPerson > 0){
+    weight.classList.remove("wrong");
+  date.classList.remove("wrong");
+  wrongInfo.classList.add("hidden")
     return true
 } else if (dateBirthday < dateNow && massPerson <= 0) {
   weight.classList.add("wrong");
@@ -80,7 +124,6 @@ function isDataOk(massPerson,dateBirthday,dateNow){
   date.classList.add("wrong");
   wrongInfo.classList.remove("hidden");
 }
-
 }
 
 function yourWaghtInAnotherPlanet(nrOfPlanet, massPerson) {
