@@ -78,7 +78,7 @@ id="date"
 </div>
 
 <button class="ripple" id="btnInput">CHECK</button>`
-nav.style.backgroundColor="rgba(255, 255, 255, 0.88) "
+nav.style.backgroundColor="rgba(255, 255, 255, 0.4) "
 nav.appendChild(navInputs)
 
 }
