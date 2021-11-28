@@ -228,27 +228,28 @@ button .circle {
   position: absolute;
   height: 5rem;
   width: 5rem;
-  top:4rem;
-  left: 4rem;
+  top:2rem;
+  left: 2rem;
   z-index: -1;
 }
 #Sun {
-  left: 18rem;
-  top: 0.5rem;
-  width: 12rem;
-  height: 12rem;
+  left:13rem;
+  top: 1rem;
+  width: 8rem;
+  height: 8rem;
 }
 #Saturn {
-  left: 0;
-  top: -1rem;
-  height: 10rem;
+ 
+ top: -2rem;
+  height: 17rem;
   
 }
 #Neptune {
-  left: -1rem;
+
   top: 0;
-  height: 13rem;
-  width: 13rem;
+  left: 1rem;
+  height: 9rem;
+  width: 9rem;
 }
 
 /* Chrome, Safari, Edge, Opera */
