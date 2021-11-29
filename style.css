@@ -276,8 +276,14 @@ input[type="number"] {
     
   }
   .navInputs{
-    position:initial;
+    display:inline-flex;
 
+  }
+  .navInputs input{
+    width: 11rem !important;
+  }
+  .navInputs button{
+    width: 10rem !important;
   }
   h1 {
     font-size: 3.5rem !important;
