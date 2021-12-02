@@ -275,17 +275,28 @@ input[type="number"] {
     width: 100vw !important;
     
   }
+  .logo{
+    position: absolute;
+  }
   .navInputs{
+    margin: 0;
     display:inline-flex;
+    width: 100vw !important;
+    justify-content: space-around;
+align-items: center;
 
   }
-  .navInputs input{
-    width: 11rem !important;
+  .navInputs>*{
+   
+    width: 30% !important;
   }
-  .navInputs button{
-    width: 10rem !important;
-  }
+  
+
   h1 {
+    font-size: 3.5rem !important;
+  }
+  .headerAfter h1 {
+    margin-top: 100rem;
     font-size: 3.5rem !important;
   }
   .inputContener {

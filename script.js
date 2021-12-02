@@ -1,4 +1,5 @@
 const nav = document.querySelector("nav")
+const logo = document.querySelector(".logo")
 const weightHTML = document.querySelector(".planets");
 const button = document.getElementById("btn");
 const headerAfter = document.getElementById("headerAfter");
@@ -6,6 +7,7 @@ const headerBefore = document.getElementById("headerBefore");
 const inputContener = document.getElementById("inputContener");
 const buttons = document.querySelectorAll(".ripple");
 const wrongInfo = document.getElementById("wrongInfo");
+const mediaQuery = window.matchMedia('(max-width: 900px)')
 
 const planets = [
   ["Sun", 27.9, 365 / 12, "TheSun.svg"],
@@ -38,6 +40,9 @@ button.addEventListener("click", () => {
     inputContener.style.animationPlayState="running";
     inputContener.addEventListener("animationend", () => inputContener.remove());
     createNavInputs()
+    hideLogo(mediaQuery)
+    mediaQuery.addEventListener('change', hideLogo);
+
     }
     updateDOM(massPerson,dateBirthday)
 }
@@ -174,6 +179,18 @@ function addDays(date, days) {
   let result = new Date(date);
   result.setDate(result.getDate() + days);
   return result;
+}
+//Hide logo
+function hideLogo(e) {
+  // Check if the media query is true
+  if (e.matches) {
+    // Then log the following message to the console
+    logo.style.display='none'
+    console.log('Media Query Matched!')
+  }else{
+    logo.style.display='block'
+    console.log('Media exit')
+  }
 }
 
 // Animation for button
