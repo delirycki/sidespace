@@ -7,18 +7,20 @@
   margin: 0;
   padding: 0;
 }
+html{
+  height: 100%;
+}
 
 body {
   margin: 0;
   font-family: "Lato", sans-serif;
-  height: 100vh !important;
+  height: 100% !important;
   display: flex;
   flex-direction: column;
   text-align: center;
   background: linear-gradient(47.28deg, #b50cbc 0%, #4e009d 48.8%, #00032c 100%)
     no-repeat center center fixed;
   color: #fff;
-  overflow:hidden;
 }
 nav{
   height: 8rem;
@@ -68,7 +70,6 @@ button {
   font-size: 1.8rem;
   font-weight: bold;
 
-  overflow: hidden;
 }
 
 .logo {
@@ -83,7 +84,8 @@ button {
 }
 .headerBefore {
   
-  margin-top: 10rem;
+  margin-top: 5rem;
+margin-bottom: 5rem;
 }
 .headerBefore h1 {
   font-size: 6rem;
@@ -95,7 +97,7 @@ button {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 10rem auto 10rem;
+  margin: auto auto 10rem;
   width: 68.5rem;
   height: 40rem;
   background-color: rgba(255, 255, 255, 0.88);

@@ -1,4 +1,3 @@
-const body = document.querySelector("body")
 const nav = document.querySelector("nav")
 const logo = document.querySelector(".logo")
 const weightHTML = document.querySelector(".planets");
@@ -50,7 +49,6 @@ buttonNav.addEventListener("click",()=>{
 })
 
 function createNavInputs(){
-  body.style.overflow ='scroll'
   headerBefore.remove();
     inputContener.remove();
 const navInputs = document.createElement('div')
