@@ -27,7 +27,6 @@ const planets = [
 document.getElementById("date").max = new Date().toISOString().split("T")[0];
 
 button.addEventListener("click", () => {
-  console.log("ELO");
   const massPerson = document.getElementById("weight").value;
   const dateBirthday = new Date(document.getElementById("date").value);
   const dateNow = new Date();
@@ -186,10 +185,9 @@ function hideLogo(e) {
   if (e.matches) {
     // Then log the following message to the console
     logo.style.display='none'
-    console.log('Media Query Matched!')
+
   }else{
     logo.style.display='block'
-    console.log('Media exit')
   }
 }
 
