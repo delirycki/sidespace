@@ -34,10 +34,9 @@ button.addEventListener("click", () => {
   if(isDataOk(massPerson,dateBirthday,dateNow))
   {
     if(headerBefore){
-    headerBefore.style.animationPlayState = "running";
-    headerBefore.addEventListener("animationend", () => headerBefore.remove());
-    inputContener.style.animationPlayState="running";
-    inputContener.addEventListener("animationend", () => inputContener.remove());
+    headerBefore.remove();
+    inputContener.remove();
+    window.scrollTo(0 , 0);
     createNavInputs()
     hideLogo(mediaQuery)
     mediaQuery.addEventListener('change', hideLogo);

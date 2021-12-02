@@ -10,7 +10,7 @@
 
 body {
   font-family: "Lato", sans-serif;
-  height: 100vh;
+  height: 100vh !important;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -83,23 +83,12 @@ button {
 .headerBefore {
   
   margin-top: 12rem;
-  animation-name: hide;
-  animation-duration: 2s;
-  animation-fill-mode: forwards;
-  animation-play-state: paused;
 }
 .headerBefore h1 {
   font-size: 6rem;
   font-weight: lighter;
 }
-@keyframes hide {
-  0% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-  }
-}
+
 
 .inputContener {
   display: flex;
@@ -181,17 +170,7 @@ button .circle {
   width: 10rem;
   height: 10rem;
   border-radius: 50%;
-  transform: translate(-50%, -50%) scale(0);
-  animation: scale 0.5s ease-out;
 }
-
-@keyframes scale {
-  to {
-    transform: translate(-50%, -50%) scale(3);
-    opacity: 0;
-  }
-}
-
 .headerAfter h1 {
   margin-top: 16rem;
   font-size: 6rem;
