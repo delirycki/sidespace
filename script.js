@@ -1,3 +1,4 @@
+const body = document.querySelector("body")
 const nav = document.querySelector("nav")
 const logo = document.querySelector(".logo")
 const weightHTML = document.querySelector(".planets");
@@ -34,20 +35,13 @@ button.addEventListener("click", () => {
   if(isDataOk(massPerson,dateBirthday,dateNow))
   {
     if(headerBefore){
-    headerBefore.remove();
-    inputContener.remove();
-    window.scrollTo(0 , 0);
     createNavInputs()
-    hideLogo(mediaQuery)
-    mediaQuery.addEventListener('change', hideLogo);
-
     }
     updateDOM(massPerson,dateBirthday)
 }
 const buttonNav = document.getElementById("btnInput");
 
 buttonNav.addEventListener("click",()=>{
-  console.log("ELO");
   const massPerson = document.getElementById("weight").value;
   const dateBirthday = new Date(document.getElementById("date").value);
   const dateNow = new Date();
@@ -56,7 +50,11 @@ buttonNav.addEventListener("click",()=>{
 })
 
 function createNavInputs(){
+  body.style.overflow ='scroll'
+  headerBefore.remove();
+    inputContener.remove();
 const navInputs = document.createElement('div')
+window.scrollTo(0 , 0);
 navInputs.classList.add('navInputs')
 navInputs.innerHTML = ` <input
 type="number"
@@ -84,6 +82,9 @@ id="date"
 nav.style.backgroundColor="rgba(255, 255, 255, 0.4) "
 nav.style.position= "fixed";
 nav.appendChild(navInputs)
+
+hideLogo(mediaQuery)
+mediaQuery.addEventListener('change', hideLogo);
 
 }
 

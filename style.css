@@ -9,6 +9,7 @@
 }
 
 body {
+  margin: 0;
   font-family: "Lato", sans-serif;
   height: 100vh !important;
   display: flex;
@@ -17,7 +18,7 @@ body {
   background: linear-gradient(47.28deg, #b50cbc 0%, #4e009d 48.8%, #00032c 100%)
     no-repeat center center fixed;
   color: #fff;
-  
+  overflow:hidden;
 }
 nav{
   height: 8rem;
@@ -82,7 +83,7 @@ button {
 }
 .headerBefore {
   
-  margin-top: 12rem;
+  margin-top: 10rem;
 }
 .headerBefore h1 {
   font-size: 6rem;
@@ -280,7 +281,7 @@ align-items: center;
   }
   .headerAfter h1 {
     
-    font-size: 3.5rem !important;
+    font-size: 4.5rem !important;
   }
   .inputContener {
     width: 90vw !important;
