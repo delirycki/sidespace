@@ -282,13 +282,16 @@ input[type="number"] {
     margin: 0;
     display:inline-flex;
     width: 100vw !important;
-    justify-content: space-around;
+    justify-content: space-evenly;
 align-items: center;
 
   }
   .navInputs>*{
    
     width: 30% !important;
+  }
+  .navInputs input{
+    font-size: 1.3rem;
   }
   
 
